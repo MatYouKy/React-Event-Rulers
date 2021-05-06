@@ -1,0 +1,117 @@
+@import 'colors';
+@import 'size';
+.app {
+  display:block;
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  //HEADER
+  .header{
+    height: $headerHeightSmall;
+    padding:$headerPaddingMobile;
+    .logo-icon{
+        height:$headerHeightSmall - $headerPaddingMobile;
+    }
+
+  }
+
+
+  .hero{
+    &__img{
+        background-image: url('../img/medium/home.jpg');
+    }
+    .services {
+
+      .top {
+        background-image: url("../img/medium/about.jpg");
+      }
+    }
+
+  }
+    //WHITE-BLOCK
+  .white-block{
+    width: 55%;
+  }
+  
+}
+
+
+
+
+  @media (min-width: 768px) {
+    //HEADER
+    .header{
+      height: $headerHeightMedium;
+      padding:$headerPaddingMobile;
+      .logo-icon{
+          height:$headerHeightMedium - $headerPaddingMedium;
+      }
+  
+    }
+    .hero{
+      &__img{
+        background-image: url('../img/large/home.jpg');
+      }
+      .services {
+        
+        .top {
+          background-image: url("../img/large/about.jpg");
+        }
+      }
+    }
+
+    //FOOTER
+    .footer{
+      &__boxes{
+        display: flex;
+        justify-content: space-around;
+      }
+      &__box{
+        &--desktop{
+          display:block;
+        }
+        &:first-child{
+          width: 50%;
+
+        }
+        &--title{
+          font-size: 2.4em;
+        }
+
+
+      }
+    }
+    //WHITE-BLOCK
+    .white-block{
+      width: 60%;
+    }
+
+
+
+  }
+
+
+
+  @media (min-width: 992px) {
+    //HEADER
+    .header{
+      height: $headerHeightLarge;
+      padding:$headerPaddingMedium;
+      .logo-icon{
+          height:$headerHeightMedium - $headerPaddingMedium;
+      }
+  
+    }
+
+    //WHITE-BLOCK
+    .white-block{
+      width: 65%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .white-block{
+      width: 70%;
+    }
+  }
+

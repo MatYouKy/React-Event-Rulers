@@ -1,0 +1,21 @@
+@mixin heroTextBounce($bounceTime, $bounceDelay, $marginBottom ) {
+    text-align: center;
+    margin-top: $marginBottom;
+    animation: bounceInUp $bounceTime $bounceDelay;
+}
+@mixin navLine($scale) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background-color: $goldColor;
+    transform: scaleY($scale);
+    transition: transform .3s;
+    content: '';
+}
+
+@mixin whiteBlock($bgc){
+    background-color: $bgc;
+    transform: skew(45deg);
+}

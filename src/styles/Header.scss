@@ -1,0 +1,22 @@
+@import 'size';
+@import 'colors';
+
+.header{
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: $headerHeightMobile;
+    width: 100%;
+    background-color:$deepBlackShadow;
+    z-index: 10;
+    &__logo{
+        position: absolute;
+        left:0;
+        padding:$headerPaddingMobile;
+        .logo-icon{
+            height:$headerHeightMobile - $headerPaddingMobile;
+            fill: $goldColor;
+        }
+    }
+}
