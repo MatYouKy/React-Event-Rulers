@@ -19,3 +19,14 @@
     background-color: $bgc;
     transform: skew(45deg);
 }
+@mixin headerImg ($img){
+    background-image: url($img);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:320px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+}

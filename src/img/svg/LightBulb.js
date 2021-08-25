@@ -1,5 +1,6 @@
 import React from 'react';
-const LightBulb = ({fill, height, width}) => (
+
+export const LightBulb = ({fill, height, width}) => (
     <svg 
         aria-hidden="true" 
         focusable="false" 
@@ -17,4 +18,3 @@ const LightBulb = ({fill, height, width}) => (
         </path>
     </svg>
 )
-export default LightBulb;

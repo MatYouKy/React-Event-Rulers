@@ -1,5 +1,6 @@
 import React from 'react';
-const Event = ({fill, height, width}) => (
+
+export const Event = ({fill, height, width}) => (
     <svg 
         aria-hidden="true"
         version="1.0" 
@@ -40,4 +41,3 @@ const Event = ({fill, height, width}) => (
         </g>
     </svg>
 )
- export default Event;

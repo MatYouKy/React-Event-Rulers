@@ -1,5 +1,5 @@
 import React from 'react';
-const Gift = ({fill, height, width}) => (
+export const Gift = ({fill, height, width}) => (
     <svg 
         aria-hidden="true" 
         focusable="false" 
@@ -17,4 +17,3 @@ const Gift = ({fill, height, width}) => (
         </path>
     </svg>
 )
-export default Gift;

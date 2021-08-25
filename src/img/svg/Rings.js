@@ -1,5 +1,6 @@
 import React from 'react';
-const Rings = ({fill, height, width}) => ( 
+
+export const Rings = ({fill, height, width}) => ( 
     <svg 
         aria-hidden="true"
         version="1.0"
@@ -89,5 +90,3 @@ const Rings = ({fill, height, width}) => (
         </g>
     </svg>
 )
- 
-export default Rings;

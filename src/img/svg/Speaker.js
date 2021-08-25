@@ -1,5 +1,6 @@
 import React from 'react';
-const Speaker = ({fill, height, width}) =>( 
+
+export const Speaker = ({fill, height, width}) =>( 
     <svg 
         aria-hidden="true" 
         focusable="false" 
@@ -17,4 +18,3 @@ const Speaker = ({fill, height, width}) =>(
         </path>
     </svg>
 )
-export default Speaker;

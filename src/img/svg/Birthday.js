@@ -1,5 +1,6 @@
 import React from 'react';
-const Birthday = ({fill, height, width}) =>(
+
+export const Birthday = ({fill, height, width}) =>(
     <svg 
         aria-hidden="true" 
         focusable="false" 
@@ -17,5 +18,3 @@ const Birthday = ({fill, height, width}) =>(
         </path>
     </svg>
 )
- 
-export default Birthday;
