@@ -1,20 +1,20 @@
 import React,{useContext} from 'react';
+import { GlobalState } from '../../context/GlobalState.context';
 import { HashLink } from 'react-router-hash-link';
-import { NavigationContext } from '../../context/NavigationContext';
 import { BurgerMenu } from '../../components/BurgerMenu/BurgerMenu';
 import { Social } from '../../components/Social/Social';
 import { LogoIcon } from '../../img/svg/LogoIcon';
 import './Header.scss';
 
 export const Header = () =>{
-    const {burgerMenu} = useContext(NavigationContext);
+    const   { burger } = useContext(GlobalState);
     return(
         <header className="header">
             <HashLink to="/#" className="header__logo">
                <LogoIcon />
             </HashLink>  
             <Social />
-            {!burgerMenu && <BurgerMenu/>}
+            { !burger && <BurgerMenu/>}
         </header>
     )   
 }

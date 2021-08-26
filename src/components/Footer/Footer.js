@@ -1,16 +1,14 @@
-import React,{ useContext } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import { NavigationContext } from '../../context/NavigationContext';
+import { navList } from '../../constans/navigationData';
 import { Social } from '../Social/Social';
 import { WhiteBlock } from '../../components/WhiteBlock/WhiteBlock';
 import { LogoIcon } from "../../img/svg/LogoIcon";
 import { LogoText } from "../../img/svg/LogoText";
 import './Footer.scss';
 
-export const Footer = () => {
-    const {navList} = useContext(NavigationContext);
-    
+export const Footer = () => {    
     return(
     <footer id="footer" className="footer scroll-fix">
             <WhiteBlock className="white-block white-block__right" color={"#f3f3f3"} />

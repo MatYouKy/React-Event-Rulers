@@ -1,11 +1,11 @@
 import React,{useContext} from 'react';
 import { Link } from 'react-router-dom';
 import { WhiteBlock } from '../../components/WhiteBlock/WhiteBlock';
-import { NavigationContext } from '../../context/NavigationContext';
+import { GlobalState } from '../../context/GlobalState.context';
 import './Services.scss';
 
 export const Services = () => {
-    const {navList}  = useContext(NavigationContext);
+    const { navList }  = useContext(GlobalState);
 
     return(
     <section id="services" className="services">
@@ -19,14 +19,14 @@ export const Services = () => {
         </div>
         <div className="bottom">
             <div className="container">                
-                {navList[2].servicesSub.map(item => {
+                {/* {navList[2].servicesSub.map(item => {
                     return <Link className="container__link" to={item.path} key={item.id} exact={item.exact}>
                         <div className="container__square">
                             {item.icon}
                             <h3>{item.title}</h3>
                             <p>{item.describe}</p>
                         </div>
-                    </Link>})}
+                    </Link>})} */}
             </div>
         </div>
     </section>

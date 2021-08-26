@@ -1,11 +1,11 @@
 import React,{useState, useContext, useEffect} from 'react';
-import { NavigationContext } from '../../context/NavigationContext';
 import { HashLink as Link } from 'react-router-hash-link';
+import { GlobalState } from '../../context/GlobalState.context';
 import './Hero.scss';
 
 export const Hero =()=>{
     const [opacity, setOpacity] = useState("0");
-    const {burgerMenu} = useContext(NavigationContext);
+    const { burger } = useContext(GlobalState);
     const delayText = delay => {
         setTimeout(()=>{
             setOpacity("1")
@@ -23,7 +23,7 @@ export const Hero =()=>{
                     <p>ponieważ kochamy to co robimy !</p>
                     <Link to="/#aboutUs"><button>poznaj nas !</button></Link>
                 </div>
-                {burgerMenu && <a href="#aboutUs" className="hero__arrow"><i className="fas fa-angle-down"></i></a>}
+                {burger.menu && <a href="#aboutUs" className="hero__arrow"><i className="fas fa-angle-down"></i></a>}
             </div>
         </section>            
     );
