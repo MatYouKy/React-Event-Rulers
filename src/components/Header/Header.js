@@ -4,17 +4,19 @@ import { HashLink } from 'react-router-hash-link';
 import { BurgerMenu } from '../../components/BurgerMenu/BurgerMenu';
 import { Social } from '../../components/Social/Social';
 import { LogoIcon } from '../../img/svg/LogoIcon';
+import { Menu } from '../Menu/Menu';
 import './Header.scss';
 
 export const Header = () =>{
-    const   { burger } = useContext(GlobalState);
+    const   { menu } = useContext(GlobalState);
     return(
         <header className="header">
             <HashLink to="/#" className="header__logo">
                <LogoIcon />
-            </HashLink>  
+            </HashLink>            
+            {menu && < Menu />}
             <Social />
-            { !burger && <BurgerMenu/>}
+            { !menu && <BurgerMenu/>}
         </header>
     )   
 }

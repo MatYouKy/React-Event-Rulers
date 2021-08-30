@@ -25,7 +25,7 @@ export const Footer = () => {
                     <div className="footer__box footer__box--desktop">
                         <h3 className="footer__box--title">Usługi</h3>
                         <ul className="footer__box--list">
-                            {navList[2].servicesSub.map(item =>{
+                            {navList[2].services.map(item =>{
                                 return <li className="footer__box--list-item" key={item.id}><Link  to={item.path}  exact={item.exact}>{item.title}</Link></li>
                             })}
                         </ul>

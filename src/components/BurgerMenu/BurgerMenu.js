@@ -3,7 +3,7 @@ import { GlobalState } from '../../context/GlobalState.context';
 import './BurgerMenu.scss';
 
 export const BurgerMenu =() =>{
-    const { burger } = useContext(GlobalState);
+    const { toggle, handleToggle } = useContext(GlobalState);
 
     const line0 ={
         transform: "rotate(45deg) translateX(9px) translateY(7px)",
@@ -15,12 +15,12 @@ export const BurgerMenu =() =>{
     };
 
     return(
-        <div className="burger-menu" onClick={ burger.handleToggle }>
+        <div className="burger-menu" onClick={ handleToggle }>
             <div className="burger-menu__container" id="cont">
-                <div className="line" id="line0" style={ burger.toggle ? line0:null } ></div>
-                <div className="line" id="line1" style={ burger.toggle ? { opacity : "0" } : null }></div>
-                <div className="line" id="line2" style={ burger.toggle ? line2 : null }></div>
-                <div className="txt-container" style={ burger.toggle ? { opacity : "0" }: null }><span>MENU</span></div>
+                <div className="line" id="line0" style={ toggle ? line0:null } ></div>
+                <div className="line" id="line1" style={ toggle ? { opacity : "0" } : null }></div>
+                <div className="line" id="line2" style={ toggle ? line2 : null }></div>
+                <div className="txt-container" style={ toggle ? { opacity : "0" }: null }><span>MENU</span></div>
             </div>
         </div>
     );

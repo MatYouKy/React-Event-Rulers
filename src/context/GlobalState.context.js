@@ -1,42 +1,25 @@
 import React, { createContext, useState, useEffect } from 'react';
-
+import { getWidth } from '../utilities/getWidth';
 
 export const GlobalState = createContext();
 
 export const GlobalStateProvider = ({children}) => {
-    const [menu, setMenu] = useState(false);
+    const [menu, setMenu] = useState(getWidth());
     const [toggle, setToggle] = useState(false);
-    const [width, setWidth] = useState(null)
 
     const handleToggle = () => setToggle(!toggle);
-    
-    const handleMenu = () => {
-        if(width >= 992){
-            setMenu(true);
-        }else{
-            setMenu(false);
+
+    useEffect(()=> {
+        const handleResizeWidth = () => {
+            setMenu(getWidth());
         }
-    }
+        window.addEventListener('resize', handleResizeWidth)
 
-    const handleWidth = () => {
-        setWidth(window.innerWidth)
-    }
-
-    useEffect(()=>{
-        window.addEventListener('resize', handleWidth);
-        handleMenu();
+        return () =>  window.removeEventListener('rezise', handleResizeWidth);
     });
     
-
-    const burger = {
-        menu,
-        toggle,
-        handleToggle
-    }
-
-    
     return (
-        <GlobalState.Provider value={ { burger } }>
+        <GlobalState.Provider value={ { menu, toggle, handleToggle } }>
             {children}
         </GlobalState.Provider>
     );

@@ -4,9 +4,6 @@
     animation: bounceInUp $bounceTime $bounceDelay;
 }
 @mixin navLine($scale) {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 3px;
     height: 100%;
     background-color: $goldColor;

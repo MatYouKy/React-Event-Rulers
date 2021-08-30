@@ -1,0 +1,22 @@
+@import "../../styles/colors";
+@import "../../styles/Global.scss";
+@import "../../styles/size";
+@import "../../styles/mixin";
+
+.navigation {
+  &__item {
+    font-size: $textFont;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+    color: $pureWhite;
+    list-style: none;
+    display: inline-block;
+    transition: color 0.2s;
+    cursor: pointer;
+
+    &:hover {
+      color: $goldColor;
+    }
+  }
+}
