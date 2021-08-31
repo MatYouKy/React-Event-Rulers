@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { navList } from '../../constans/navigationData';
-import { WhiteBlock } from '../../components/WhiteBlock/WhiteBlock';
+import { services } from '../../constans/navigationData';
 import './Services.scss';
 
 export const Services = () => (
@@ -12,11 +11,10 @@ export const Services = () => (
         <h2>usługi</h2>
         <div className="title--underline" />
       </div>
-      <WhiteBlock className="white-block white-block__left" />
     </div>
     <div className="bottom">
       <div className="container">
-        {navList[2].services.map(item => (
+        {services.map(item => (
           <Link className="container__link" to={item.path} key={item.id} exact={item.exact}>
             <div className="container__square">
               {item.icon}

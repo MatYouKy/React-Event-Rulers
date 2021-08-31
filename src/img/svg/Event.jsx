@@ -1,20 +1,17 @@
 import React from 'react';
 
-export const Event = ({fill, height, width}) => (
-    <svg 
+export const Event = () => (
+    <svg
         aria-hidden="true"
-        version="1.0" 
+        version="1.0"
         xmlns="http://www.w3.org/2000/svg"
         data-icon="event"
-        width={width} 
-        height={height} 
         className="container__square--shape"
         viewBox="0 0 512.000000 512.000000"
         preserveAspectRatio="xMidYMid meet">
-        <g  
-            transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" 
-            stroke="none" 
-            fill={fill}>
+        <g
+            transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+            stroke="none">
             <path d="M290 4446 c-100 -27 -176 -82 -228 -163 -94 -149 -77 -334 43 -462
             44 -47 149 -111 182 -111 11 0 13 -257 13 -1525 l0 -1525 80 0 80 0 0 1313 0
             1313 138 -136 c294 -290 606 -515 930 -671 l122 -59 0 -220 0 -221 78 3 77 3

@@ -1,18 +1,15 @@
 import React from 'react';
 
-export const Rings = ({fill, height, width}) => ( 
+export const Rings = () => ( 
     <svg 
         aria-hidden="true"
         version="1.0"
         data-icon="rings-wedding"
         xmlns="http://www.w3.org/2000/svg"
-        width={width} 
-        height={height}
         className="container__square--shape"
         viewBox="0 0 682.000000 724.000000"
         preserveAspectRatio="xMidYMid meet">
         <g transform="translate(0.000000,724.000000) scale(0.100000,-0.100000)"
-            fill={fill} 
             stroke="none">
             <path d="M2145 7211 c-44 -16 -154 -52 -245 -81 -148 -47 -180 -61 -305 -138
                 -77 -47 -156 -94 -175 -105 -60 -33 -152 -89 -221 -133 -63 -41 -66 -45 -87
