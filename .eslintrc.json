@@ -3,11 +3,7 @@
     "browser": true,
     "es2021": true
   },
-  "extends": [
-    "plugin:react/recommended",
-    "airbnb",
-    "prettier"
-  ],
+  "extends": ["plugin:react/recommended", "airbnb", "prettier"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -15,13 +11,34 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "prettier"
-  ],
+  "plugins": ["react", "prettier"],
   "rules": {
     "import/prefer-default-export": "off",
     "no-use-before-define": "off",
-    "jsx-a11y/control-has-associated-label": "error"
+    "jsx-a11y/control-has-associated-label": "error",
+    "react/jsx-filename-extension": ["warn", { "extensions": [".jsx"] }],
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": true, "optionalDependencies": false, "peerDependencies": false }
+    ],
+    "unused-imports/no-unused-imports": "error"
+  },
+  "import/extensions": [
+    "error",
+    "ignorePackages",
+    {
+      "ts": "never",
+      "tsx": "never"
+    }
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    }
   }
 }
