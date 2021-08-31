@@ -6,8 +6,10 @@ import { Home } from './pages/Home/Home';
 import { Navigation } from './components/Navigation/Navigation';
 import { Footer } from './components/Footer/Footer';
 import { ServiceSubPage } from './pages/ServiceSubPage/ServiceSubPage';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import './styles/Global.scss';
 
+console.log(MessengerCustomerChat);
 export const App = () => (
   <Router>
     <Navigation />
