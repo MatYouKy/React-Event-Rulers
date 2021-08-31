@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Event-Rulers/static/css/main.12b7a375.chunk.css",
+    "main.js": "/React-Event-Rulers/static/js/main.ef1185e6.chunk.js",
+    "main.js.map": "/React-Event-Rulers/static/js/main.ef1185e6.chunk.js.map",
+    "runtime-main.js": "/React-Event-Rulers/static/js/runtime-main.01494f2b.js",
+    "runtime-main.js.map": "/React-Event-Rulers/static/js/runtime-main.01494f2b.js.map",
+    "static/js/2.5b437aac.chunk.js": "/React-Event-Rulers/static/js/2.5b437aac.chunk.js",
+    "static/js/2.5b437aac.chunk.js.map": "/React-Event-Rulers/static/js/2.5b437aac.chunk.js.map",
+    "index.html": "/React-Event-Rulers/index.html",
+    "static/css/main.12b7a375.chunk.css.map": "/React-Event-Rulers/static/css/main.12b7a375.chunk.css.map",
+    "static/js/2.5b437aac.chunk.js.LICENSE.txt": "/React-Event-Rulers/static/js/2.5b437aac.chunk.js.LICENSE.txt",
+    "static/media/Services.scss": "/React-Event-Rulers/static/media/about.42c36cd7.jpg",
+    "static/media/Global.scss": "/React-Event-Rulers/static/media/home.95caa97b.jpg",
+    "static/media/Hero.scss": "/React-Event-Rulers/static/media/home1.4a9e5968.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01494f2b.js",
+    "static/js/2.5b437aac.chunk.js",
+    "static/css/main.12b7a375.chunk.css",
+    "static/js/main.ef1185e6.chunk.js"
+  ]
+}
