@@ -10,7 +10,7 @@ import { ServiceSubPage } from './pages/ServiceSubPage/ServiceSubPage';
 import './styles/Global.scss';
 
 export const App = () => (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Navigation />
     <Header />
     <Switch>
