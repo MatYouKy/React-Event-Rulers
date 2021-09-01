@@ -7,7 +7,7 @@ import { LogoIcon } from '../../img/svg/LogoIcon';
 import { MainMenu } from '../Menu/MainMenu';
 import './Header.scss';
 
-export const Header = () =>{
+export const Header: React.FC = () =>{
   const   { menu } = useContext(GlobalState);
   return(
     <header className="header">

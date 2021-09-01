@@ -7,14 +7,14 @@ import { SubMenu } from './SubMenu';
 
 import './Menu.scss';
 
-export const MainMenu = () => {
-  const menu = navList.map(nav => 
-  <HashLink key={nav.id} to={nav.path}>
+export const MainMenu: React.FC = () => {
+  const menu = navList.map(nav =>
+    <HashLink key={nav.id} to={nav.path}>
       <li className="navigation__item">
         {nav.title}
-        <FA icon={nav.icon}/>
-        {nav.services && <SubMenu subMenu={services}/>}
-        {nav.attraction && <SubMenu subMenu={attraction}/>}
+        <FA icon={nav.icon} />
+        {nav.services && <SubMenu subMenu={services} />}
+        {nav.attraction && <SubMenu subMenu={attraction} />}
       </li>
     </HashLink>);
 

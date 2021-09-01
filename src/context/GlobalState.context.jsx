@@ -3,7 +3,6 @@ import { getWidth } from '../utilities/getWidth';
 
 export const GlobalState = createContext();
 
-// eslint-disable-next-line react/prop-types
 export const GlobalStateProvider = ({ children }) => {
   const [menu, setMenu] = useState(getWidth());
   const [toggle, setToggle] = useState(false);
