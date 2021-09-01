@@ -11,11 +11,10 @@
     padding: 10px;
     color: $pureWhite;
     list-style: none;
-    display: inline-block;
     transition: color 0.2s;
     cursor: pointer;
-
-    &:hover {
+    display: inline-block;
+  &:hover {
       color: $goldColor;
     }
   }

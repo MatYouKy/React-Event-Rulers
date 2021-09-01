@@ -4,7 +4,7 @@ import { GlobalState } from '../../context/GlobalState.context';
 import { BurgerMenu } from "../BurgerMenu/BurgerMenu";
 import { Social } from "../Social/Social";
 import { LogoIcon } from '../../img/svg/LogoIcon';
-import { Menu } from '../Menu/Menu';
+import { MainMenu } from '../Menu/MainMenu';
 import './Header.scss';
 
 export const Header: React.FC = () =>{
@@ -14,7 +14,7 @@ export const Header: React.FC = () =>{
       <HashLink to="/#" className="header__logo">
         <LogoIcon />
       </HashLink>            
-        {menu && < Menu />}
+        {menu && < MainMenu />}
             <Social />
             { !menu && <BurgerMenu/>}
         </header>
