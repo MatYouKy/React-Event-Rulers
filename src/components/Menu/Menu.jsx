@@ -4,8 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 import { navList } from '../../constans/navigationData';
 import './Menu.scss';
 
-export const Menu = () => {
-
+export const Menu: React.FC = () => {
   // const service = services.map(sub => 
   // <Link key={sub.id} to={sub.path}>
   //   <li className="navigation__item">{sub.name}</li>
