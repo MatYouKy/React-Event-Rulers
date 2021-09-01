@@ -1,3 +1,5 @@
+
+import { faCaretDown} from '@fortawesome/free-solid-svg-icons';
 import { Rings } from '../img/svg/Rings';
 import { Event } from '../img/svg/Event';
 import { Speaker } from '../img/svg/Speaker';
@@ -8,8 +10,8 @@ import { Birthday } from '../img/svg/Birthday';
 export const navList = [
   { id: 'home', title: 'home', path: '/#' },
   { id: 'aboutUs', title: 'o nas', path: '/#aboutUs' },
-  { id: 'services', title: 'usługi', path: '/#services' },
-  { id: 'attraction', title: 'atrakcje', path: '/#attraction' },
+  { id: 'services', title: 'usługi', path: '/#services', services: true, icon: faCaretDown },
+  { id: 'attraction', title: 'atrakcje', path: '/#attraction', attraction: true, icon: faCaretDown },
   { id: 'recommend', title: 'opinie', path: '/#recommend' },
   { id: 'contact', title: 'kontakt', path: '/#footer' }
 ];
