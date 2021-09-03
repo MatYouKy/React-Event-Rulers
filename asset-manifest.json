@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Event-Rulers/static/css/main.f2d6f9cb.chunk.css",
-    "main.js": "/React-Event-Rulers/static/js/main.ff207093.chunk.js",
-    "main.js.map": "/React-Event-Rulers/static/js/main.ff207093.chunk.js.map",
+    "main.js": "/React-Event-Rulers/static/js/main.398ab1b9.chunk.js",
+    "main.js.map": "/React-Event-Rulers/static/js/main.398ab1b9.chunk.js.map",
     "runtime-main.js": "/React-Event-Rulers/static/js/runtime-main.01494f2b.js",
     "runtime-main.js.map": "/React-Event-Rulers/static/js/runtime-main.01494f2b.js.map",
     "static/js/2.eca28a7c.chunk.js": "/React-Event-Rulers/static/js/2.eca28a7c.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.01494f2b.js",
     "static/js/2.eca28a7c.chunk.js",
     "static/css/main.f2d6f9cb.chunk.css",
-    "static/js/main.ff207093.chunk.js"
+    "static/js/main.398ab1b9.chunk.js"
   ]
 }
