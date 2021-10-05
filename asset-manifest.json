@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/React-Event-Rulers/static/css/main.f2d6f9cb.chunk.css",
-    "main.js": "/React-Event-Rulers/static/js/main.398ab1b9.chunk.js",
-    "main.js.map": "/React-Event-Rulers/static/js/main.398ab1b9.chunk.js.map",
+    "main.css": "/React-Event-Rulers/static/css/main.eb4facf0.chunk.css",
+    "main.js": "/React-Event-Rulers/static/js/main.ef64b677.chunk.js",
+    "main.js.map": "/React-Event-Rulers/static/js/main.ef64b677.chunk.js.map",
     "runtime-main.js": "/React-Event-Rulers/static/js/runtime-main.01494f2b.js",
     "runtime-main.js.map": "/React-Event-Rulers/static/js/runtime-main.01494f2b.js.map",
-    "static/js/2.eca28a7c.chunk.js": "/React-Event-Rulers/static/js/2.eca28a7c.chunk.js",
-    "static/js/2.eca28a7c.chunk.js.map": "/React-Event-Rulers/static/js/2.eca28a7c.chunk.js.map",
+    "static/css/2.cff746f0.chunk.css": "/React-Event-Rulers/static/css/2.cff746f0.chunk.css",
+    "static/js/2.34ceb88a.chunk.js": "/React-Event-Rulers/static/js/2.34ceb88a.chunk.js",
+    "static/js/2.34ceb88a.chunk.js.map": "/React-Event-Rulers/static/js/2.34ceb88a.chunk.js.map",
     "index.html": "/React-Event-Rulers/index.html",
-    "static/css/main.f2d6f9cb.chunk.css.map": "/React-Event-Rulers/static/css/main.f2d6f9cb.chunk.css.map",
-    "static/js/2.eca28a7c.chunk.js.LICENSE.txt": "/React-Event-Rulers/static/js/2.eca28a7c.chunk.js.LICENSE.txt",
+    "static/css/2.cff746f0.chunk.css.map": "/React-Event-Rulers/static/css/2.cff746f0.chunk.css.map",
+    "static/css/main.eb4facf0.chunk.css.map": "/React-Event-Rulers/static/css/main.eb4facf0.chunk.css.map",
+    "static/js/2.34ceb88a.chunk.js.LICENSE.txt": "/React-Event-Rulers/static/js/2.34ceb88a.chunk.js.LICENSE.txt",
     "static/media/Services.scss": "/React-Event-Rulers/static/media/about.42c36cd7.jpg",
-    "static/media/Global.scss": "/React-Event-Rulers/static/media/home.95caa97b.jpg",
+    "static/media/Global.scss": "/React-Event-Rulers/static/media/about.e9697d13.jpg",
     "static/media/Hero.scss": "/React-Event-Rulers/static/media/home1.4a9e5968.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.01494f2b.js",
-    "static/js/2.eca28a7c.chunk.js",
-    "static/css/main.f2d6f9cb.chunk.css",
-    "static/js/main.398ab1b9.chunk.js"
+    "static/css/2.cff746f0.chunk.css",
+    "static/js/2.34ceb88a.chunk.js",
+    "static/css/main.eb4facf0.chunk.css",
+    "static/js/main.ef64b677.chunk.js"
   ]
 }
